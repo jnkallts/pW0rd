@@ -56,6 +56,7 @@ export const Modal = ({ closeModal, onSubmit, defaultValue }) => {
          <div className="modal">
             <form>
                <div className="form-group">
+                  <label>Title</label>
                   <input
                      type="text"
                      name="title"
